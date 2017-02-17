@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>企业站首页</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/backTop.js"></script> 
+	<script type="text/javascript" src="js/carousel.js"></script>
+
+	
+	<script>
+		$(function(){
+	 	$(".fhsy").backTop();
+	 	//$(".backtop") 返回按钮父容器     
+		}) 
+	</script>
+
+
+</head>
+<body>
+					<!-- 导航 -->
+	<div class="nav">
+		<div class="nav_center">
+			<input class="sousuo" type="text" placeholder=" 搜索">
+			<img src="image/ytb.gif" alt="">
+			<img src="image/fei.gif" alt="">
+			<img src="image/niao.jpg" alt="">
+			<span>SHARE:</span>
+		</div>
+		
+	</div>
+
+		 				<!-- Logo -->
+	<div class="Box"></div>
+
+
+
+					<!-- 导航栏 -->
+	<div class="DAOHANG">
+		<div class="neikuan">
+			<div class="aa aa1">
+				<a href="">
+					<span>
+						<b>首页  ></b>
+					</span>
+				</a>
+			</div>
+			<div class="aa aa2">
+				<a href="inter1.html">
+					<span>面点推荐  ></span>
+				</a>
+				
+			</div>
+			<div class="aa aa3">
+				<a href="inter2.html">
+					<span>品牌故事  ></span>
+				</a>
+			</div>
+			<div class="aa aa4">
+				<a href="inter3.html">
+					<span>新闻中心  ></span>
+				</a>
+			</div>
+			<div class="aa aa5">
+				<a href="">
+					<span>面点师  ></span>
+				</a>
+			</div>
+			<div class="aa aa6">
+				<a href="inter5.html">
+					<span>加盟合作  ></span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+				<!-- banner -->
+	
+	       <div class="uek_win">
+        <ul class="uek_box">
+          <li class="uek_list">
+                <a href="#" class="uek_one">
+                <img src="image/2342.jpg" />			
+                </a>
+          </li>
+          <li class="uek_list">
+                <a href="#" class="uek_two">
+                <img src="image/121.png" />				
+                </a>
+          </li>
+          <li class="uek_list">
+                <a href="#" class="uek_three">	
+                <img src="image/1231.jpg"/>			
+                </a>
+          </li>
+          <li class="uek_list">
+                <a href="#" class="uek_four"> 
+                <img src="image/2342.jpg" />			
+                </a>
+          </li>
+          <li class="uek_list">
+                <a href="#" class="uek_five">
+                <img src="image/121.png" />			
+                </a>
+          </li>
+          <li class="uek_list">
+                <a href="#" class="uek_one">
+                <img src="image/1231.png" />		
+                </a>
+          </li>
+        </ul>
+        <dl class="uek_btns">
+					<!-- <dd class="dian dian1"></dd>
+					<dd class="dian dian2"></dd>
+					<dd class="dian dian3"></dd>
+					<dd class="dian dian4"></dd>
+					<dd class="dian dian5"></dd> -->
+            <dd class="uek_active"></dd>
+            <dd></dd>
+            <dd></dd>
+            <dd></dd>
+            <dd></dd>
+        </dl> 
+     </div>  
+
+<script>
+         $(function(){
+            $(".uek_win").carousel($(".uek_box"),$(".uek_list"),$(".uek_btns dd"),"two",3000,300);
+            //$(".uek_win") 父容器   $(".uek_box")所有轮播图片容器  $(".uek_list")轮播图片列表  $(".uek_btns dd") 按钮列表 
+            //"two" 轮播类型 透明度切换   3000 轮播间隔   3000 轮播动画时间 
+         }) 
+	</script>
+	
+
+
+
+
+<!-- 	<div class="Box1">
+
+		<div class="BB">
+			<img src="image/tupian.jpg" alt="">
+			<div class="BB1">
+				<div class="zuo"></div>
+				<div class="you"></div>
+				<div class="xia">
+					<div class="dian dian1"></div>
+					<div class="dian dian2"></div>
+					<div class="dian"></div>
+				</div>
+			</div>
+		</div>
+
+	</div> -->
+
+
+		<!-- <div class="BB">
+			
+		</div> -->
+
+
+				<!-- 内容2 -->
+	<div class="Box2">
+		<div class="ab">
+			<span class="biaoti">HERE IS THE BEST BREAD BORNS</span>
+		</div>
+		<span>材料</span>
+		<div class="as"></div>
+		<div class="az">
+			<div class="bd bd1">
+				<div class="llu">
+					<div class="pfp">
+						<span class="jctl">Wheat</span>
+					</div>
+					<div class="pfp">
+						<span class="jct2">精选优质小麦</span>
+					</div>
+					<div class="pfp">
+						<p class="jct3">Lacus nec bibendum pulvinar</p>
+					</div>
+					<div class="pfp">
+						<a href=""><span class="jct4">Details>></span></a>
+					</div>
+				</div>
+				
+		
+			</div>
+
+			<div class="bd bd2">
+				<div class="llu">
+					<div class="pfp">
+						<span class="jctl_1">TASTE</span>
+					</div>
+					<div class="pfp">
+						<span class="jct2_1">香甜可口 </span>
+					</div>
+					<div class="pfp">
+						<p class="jct3_1">Lacus nec bibendum pulvinar</p>
+					</div>
+					<div class="pfp">
+						<a href=""><span class="jct4">Details>></span></a>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="bd bd3">
+				<div class="llu">
+					<div class="pfp">
+						<span class="jctl_1_1">BREAD</span>
+					</div>
+					<div class="pfp">
+						<span class="jct2_1_1">一百年传承 </span>
+					</div>
+					<div class="pfp">
+						<p class="jct3_1_1">Lacus nec bibendum pulvinar</p>
+					</div>
+					<div class="pfp">
+						<a href=""><span class="jct4">Details>></span></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+
+				<!-- 内容3 -->
+		<div class="Box3">
+			<div class="Box3_1">
+
+				<div class="BBX1">
+					<div class="j"></div>
+					<div class="g">	
+						<p class="wul">"EACH LOAF OF BREAD HAS ITS OWN <br>PERSONALITY."</p>
+						<p class="wul1">Jon Davis, baker</p>
+					</div>
+				</div>
+
+				<div class="BBX2">
+					<div class="th th1"></div>
+					<div class="th th2"></div>
+					<div class="th th3"></div>
+					<div class="th th4"></div>
+				</div>
+			</div>
+		</div>
+
+		 		<!-- 内容4 -->
+	<div class="Box4">
+		<div class="bb">
+			<span class="biaoti2">HERE IS THE BEST BREAD BORNS</span>
+		</div>
+		<div class="bb1">
+			<span>种类</span>
+		</div>
+		
+		<div class="bs"></div>
+
+ 		<div class="kk">
+ 			<div class="ie ie1">
+ 				<div class="ahz">
+ 					<img src="image/1-1.jpg" alt="">
+ 					<div class="qq">
+ 						<span class="pq1">MAH-LO-MAHR COOKIE</span>
+ 					</div>
+ 					<div class="oq">
+ 						<span class="pq2">饼干</span>
+ 					</div>
+ 					<div class="wq">
+ 						<span class="pq3">friends, but they couldn't be more<br>&nbsp;&nbsp;&nbsp;&nbsp; different. loves to create</span>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="ie ie2">
+ 				<div class="ahz">
+ 					<img src="image/1-2.jpg" alt="">
+ 					<div class="qq">
+ 						<span class="pq1_1">Whole wheat bread</span>
+ 					</div>
+ 					<div class="oq">
+ 						<span class="pq2_2">全麦面包</span>
+ 					</div>
+ 					<div class="wq">
+ 						<span class="pq3">friends, but they couldn't be more<br>&nbsp;&nbsp;&nbsp;&nbsp; different. loves to create</span>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="ie ie3">
+ 				<div class="ahz3">
+ 					<img src="image/1-3.jpg" alt="">
+ 					<div class="qq">
+ 						<span class="pq1_1_1">Whole wheat bread</span>
+ 					</div>
+ 					<div class="oq">
+ 						<span class="pq2_2_2">巧克力杯蛋糕</span>
+ 					</div>
+ 					<div class="wq">
+ 						<span class="pq3">friends, but they couldn't be more<br>&nbsp;&nbsp;&nbsp;&nbsp; different. loves to create</span>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="ie ie4">
+ 				<div class="ahz">
+ 					<img src="image/1-4.jpg" alt="">
+ 					<div class="qq">
+ 						<span class="pq1_1_1_1">Whole wheat bread</span>
+ 					</div>
+ 					<div class="oq">
+ 						<span class="pq2_2_2_2">双短面包</span>
+ 					</div>
+ 					<div class="wq">
+ 						<span class="pq3">friends, but they couldn't be more<br>&nbsp;&nbsp;&nbsp;&nbsp; different. loves to create</span>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="ie ie5">
+ 				<div class="ahz">
+ 					<img src="image/1-5.jpg" alt="">
+ 					<div class="qq">
+ 						<span class="pq1_1_1_1_1">Whole wheat bread</span>
+ 					</div>
+ 					<div class="oq">
+ 						<span class="pq2_2_2_2_2">马卡龙</span>
+ 					</div>
+ 					<div class="wq">
+ 						<span class="pq3">friends, but they couldn't be more<br>&nbsp;&nbsp;&nbsp;&nbsp; different. loves to create</span>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="ie ie6">
+ 				<div class="ahz6">
+ 						<img src="image/1-6.jpg" alt="">
+ 					<div class="qq">
+ 						<span class="pq1_1_1_1_1_1">Whole wheat bread</span>
+ 					</div>
+ 					<div class="oq">
+ 						<span class="pq2_2_2_2_2_2">马卡龙</span>
+ 					</div>
+ 					<div class="wq">
+ 						<span class="pq3">friends, but they couldn't be more<br>&nbsp;&nbsp;&nbsp;&nbsp; different. loves to create</span>
+ 					</div>
+ 				</div>
+ 			</div>			
+ 		</div>
+
+		<div class="ww5"><a href=""><span>更多面包</span></a>
+
+	</div>	
+</div>
+
+				<!-- 内容5 -->
+	<div class="Box5">
+		<div class="cb">
+			<span class="biaoti3">PRODUCT REOMMENDATION</span>
+		</div>
+		<div class="cb1">
+			<span>产品推荐</span>
+		</div>
+
+		<div class="bs"></div>
+
+		<div class="rr">
+			<div class="ix ix1">
+				<div class="zhz">
+					<img src="image/01.jpg" alt="">
+ 					<div class="qqx">
+ 						<span class="pqx1">FLOURLESS DARK CHOCOLATE CAKE</span>
+ 					</div>
+ 					<div class="oqx">
+ 						<span class="pqx2">无面粉黑巧克力蛋糕</span>
+ 					</div>
+ 					<div class="wqx">
+ 						<span class="pqx3">$50.00</span>
+ 					</div>
+				</div>
+			</div>
+			<div class="ix ix2">
+				<div class="zhz">
+					<img src="image/02.jpg" alt="">
+ 					<div class="qqx">
+ 						<span class="pqx1_1">BROWN BUTTER PECAN TART</span>
+ 					</div>
+ 					<div class="oqx">
+ 						<span class="pqx2_2">布朗奶油山核桃馅饼</span>
+ 					</div>
+ 					<div class="wqx">
+ 						<span class="pqx3_3">$45.00</span>
+ 					</div>
+				</div>
+			</div>
+			<div class="ix ix3">
+				<div class="zhz">
+					<img src="image/03.jpg" alt="">
+ 					<div class="qqx">
+ 						<span class="pqx1_1_1">CARROT CAKE</span>
+ 					</div>
+ 					<div class="oqx">
+ 						<span class="pqx2_2_2">胡萝卜蛋糕</span>
+ 					</div>
+ 					<div class="wqx">
+ 						<span class="pqx3_3_3">$45.00</span>
+ 					</div>
+				</div>
+			</div>
+			<div class="ix ix4">
+				<div class="zhz">
+					<img src="image/04.jpg" alt="">
+ 					<div class="qqx">
+ 						<span class="pqx1_1_1_1">HEAVENLY CHEESECAKE</span>
+ 					</div>
+ 					<div class="oqx">
+ 						<span class="pqx2_2_2_2">天上的芝士蛋糕</span>
+ 					</div>
+ 					<div class="wqx">
+ 						<span class="pqx3_3_3_3">$50.00</span>
+ 					</div>
+				</div>
+			</div>
+			<div class="ix ix5">
+					<div class="zhz3">
+					<img src="image/05.jpg" alt="">
+ 					<div class="qqx">
+ 						<span class="pqx1_1_1_1_1">SALTED CARAMEL CASHEW TART</span>
+ 					</div>
+ 					<div class="oqx">
+ 						<span class="pqx2_2_2_2_2">咸焦糖腰果馅饼</span>
+ 					</div>
+ 					<div class="wqx">
+ 						<span class="pqx3_3_3_3_3">$45.00</span>
+ 					</div>
+				</div>		
+			</div>
+			<div class="ix ix6">
+				<div class="zhz">
+					<img src="image/06.jpg" alt="">
+ 					<div class="qqx"><span class="pqx1_1_1_1_1_1">PISTACHIO RASPBERRY ROSE TART</span></div>
+ 					<div class="oqx"><span class="pqx2_2_2_2_2_2">阿月浑子树莓玫瑰果馅饼</span></div>
+ 					<div class="wqx"><span class="pqx3_3_3_3_3_3">$45.00</span></div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="ww6"><a href=""><span>更多面包</span></a></div>
+
+	</div>
+
+
+				<!-- 底部栏 -->
+	<div class="Foot">
+		<div class="fn">
+			<div class="fx"></div>
+			<div class="fz">
+				<div class="ff1">
+					<div class="oe1">
+						<p class="cubt">公司</p>
+						<p class="xubt xubt1">关于我们</p>
+						<p class="xubt xubt2">招聘</p>
+						<p class="xubt xubt3">联系</p>
+					</div>
+					<div class="oe2">
+						<p class="cubt">顾客</p>
+						<p class="xubt xubt1_1">服务</p>
+						<p class="xubt xubt2_1">反馈</p>
+						<p class="xubt xubt3_1">网站地图</p>
+					</div>	
+					<div class="oe3">
+						<p class="cubt">生意</p>
+						<p class="xubt xubt1_1_1">企业近进入</p>
+						<p class="xubt xubt2_1_1">商业背景</p>
+						<p class="xubt xubt3_1_1">商人社区</p>
+						<p class="xubt xubt4_1_1">手机版下载</p>
+					</div>
+
+				</div>
+
+				<div class="ff2">
+					<p class="xubt xubt1_1_1_1">营业执照注册号：330106000129004</p>
+					<p class="xubt xubt2_1_1_1">增值电信业务许可证：浙B2-20110349</p>
+					<p class="xubt xubt3_1_1_1">网络文化经营许可证：浙网文（2016）0349-219号</p>	
+				</div>
+
+				<div class="ff3">
+					<div >
+						<img src="image/y1.jpg" alt="">
+						<span class="xubt xubt1_1_1_1_1">029-8876543  9986354</span>
+					</div>
+
+					<div class="hh">
+						<img src="image/y2.jpg" alt="">
+						<span class="xubt xubt2_1_1_1_1">西安市新城区公园北路幸福路十字139号</span>
+					</div>
+
+					<div>
+						<img src="image/y3.jpg" alt="">
+						<span class="xubt xubt3_1_1_1_1">appalled and surprised parents often</span>
+					</div>		
+				</div>
+			</div>
+
+			<div class="fy">
+				<input class="nm" type="text" placeholder="   名字">
+				<input class="nm1" type="text" placeholder="   电话">
+				<input class="nm2" type="text" placeholder="   地址">
+				<textarea placeholder="   地址"class="nm3"style="font-size:12px;font-family:pingfang;color:#80766c;background-color:#191613;"></textarea>
+			</div>
+
+
+
+			<div class="fxk">All rights reserved MARRY</div>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+				<!-- 返回首页 -->
+	<div class="fhsy"></div>
+
+
+</body>
+</html>

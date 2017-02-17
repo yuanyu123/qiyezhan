@@ -1,0 +1,16 @@
+/*通用选择器*/
+*{
+	margin: 0;
+	/*列表元素*/
+	/*去除原网页中的小黑点*/
+	list-style: none;
+	padding: 0;
+}
+	a{
+	/*去除去除下划线*/
+	text-decoration: none;
+}
+body{
+	/*字体样式*/
+	font-family: 微软雅黑；
+}
